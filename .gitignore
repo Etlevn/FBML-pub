@@ -1,0 +1,105 @@
+#############################
+# OS / Editor
+#############################
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+#############################
+# Python bytecode / caches
+#############################
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+#############################
+# Environments / secrets
+#############################
+.env
+.env.*
+env/
+venv/
+.venv/
+.conda/
+.cache/
+.local/
+.python-version
+
+#############################
+# Build / packaging
+#############################
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+#############################
+# Logs / reports
+#############################
+logs/
+*.log
+coverage.xml
+.coverage*
+htmlcov/
+
+#############################
+# Project outputs 
+#############################
+out/
+
+#############################
+# ML artifacts
+#############################
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents*
+catboost_info/
+
+#############################
+# Mac-specific inside package
+#############################
+lstm/.DS_Store
+.DS_Store
+
+#############################
+# Private data / local configuration
+#############################
+data/
+private/
+*.dta
+*.sas7bdat
+*.sas7bcat
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.sqlite3
+*.db
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+config/local*.py
+
+# Public source release excludes all notebooks
+*.ipynb
