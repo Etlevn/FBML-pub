@@ -1,0 +1,80 @@
+#############################
+# OS / Editor
+#############################
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+#############################
+# Python bytecode / caches
+#############################
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+#############################
+# Environments / secrets
+#############################
+.env
+.env.*
+env/
+venv/
+.venv/
+.conda/
+.cache/
+.local/
+.python-version
+
+#############################
+# Build / packaging
+#############################
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+#############################
+# Logs / reports
+#############################
+logs/
+*.log
+coverage.xml
+.coverage*
+htmlcov/
+
+#############################
+# Project outputs
+#############################
+out/
+*-pub/
+
+#############################
+# ML artifacts
+#############################
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents*
+catboost_info/
+
+#############################
+# Private data / local configuration
+#############################
+data/
+private/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+config/local*.py
